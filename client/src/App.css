@@ -8,9 +8,34 @@ section {
   color: lightgrey;
 }
 
+article {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
 h1 {
   font-size: 5rem;
   font-weight: 700;
+}
+
+h1 span {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+  margin-left: 1rem;
+}
+
+h1 a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.1s ease-out;
+}
+
+article p {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-left: 2.5rem;
 }
 
 h2 {
@@ -19,19 +44,26 @@ h2 {
   font-weight: bold;
 }
 
+
 h3 {
   color: rgb(125, 125, 125);
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-weight: bold;
-  margin-bottom: 2rem;
+}
+
+h3 a {
+  margin-left: 2rem;
+  color: rgb(237, 186, 0);
+  text-decoration: none;
+  transition: all 0.1s ease-out;
+}
+
+h3 a:hover {
+  color: rgb(254, 250, 131);
 }
 
 p {
   font-family: 'Raleway', sans-serif;
-  font-size: 4rem;
+  font-size: 8rem;
   font-weight: bold;
-  /* line-height: 2.6rem; */
-  background-color: transparent;
-  background-image: linear-gradient(90deg, rgba(211, 211, 211, 0), rgba(211, 211, 211, 0));
-  transition: all 1.5s ease-out; 
 }

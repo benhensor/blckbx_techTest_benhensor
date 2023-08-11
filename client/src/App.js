@@ -31,9 +31,12 @@ function App() {
       <section>
 
       <article>
-        <h1>BlckBx Tech Challenge</h1>
-        <h2>Full Stack Developer</h2>
-        <h3>Ben Hensor</h3>
+      <h1><a href="https://blckbx.co.uk/" rel="noreferrer" target="_blank">BLCK <span>BX</span></a></h1>
+        <p><span>Technical Test</span></p>
+      </article>
+      <article>
+      <h2>Full Stack Developer - </h2>
+      <h3><a href="https://benhensordev.netlify.app/" rel="noreferrer" target="_blank">Ben Hensor</a></h3>
       </article>
 
         {( typeof data.result === 'undefined' ) ? (
