@@ -3,7 +3,7 @@ My attempt at the BLCKBX FizzBuzz tech challenge
 
 ## Set up
 
-### To run the app, install a virtual server environment
+### Navigate to the server directory and install a virtual server environment
 
 pip3 install virtualenv
 
