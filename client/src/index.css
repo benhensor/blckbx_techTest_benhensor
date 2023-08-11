@@ -4,6 +4,11 @@
   font-size: 62.5%;
 }
 
+/*  Setting the font-size to 62.5% at root level and then setting the default
+    font-size to 1.6rem converts font-size to base 10, which is a neat trick
+    to make working with relative units like rem easier to manage.
+    This also preserves the common browser default font-size of 16pt.  */
+
 
 * {
   margin: 0;
