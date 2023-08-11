@@ -28,7 +28,7 @@ pip3 install Flask-Cors
 
 python3 server.py
 
-### Start frontend client
+### Navigate to client directory and start frontend client
 
 npm start
 
