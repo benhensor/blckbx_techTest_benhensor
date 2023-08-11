@@ -28,6 +28,13 @@ function App() {
 
   return (
     <main className="App">
+      <section>
+
+      <article>
+        <h1>BlckBx Tech Challenge</h1>
+        <h2>Full Stack Developer</h2>
+        <h3>Ben Hensor</h3>
+      </article>
 
         {( typeof data.result === 'undefined' ) ? (
             <p>Loading...</p>
@@ -38,7 +45,8 @@ function App() {
                 </p>
             ))
         )}
-      
+
+        </section>
     </main>
   );
 }
