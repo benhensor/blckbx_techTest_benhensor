@@ -22,12 +22,22 @@ function App() {
       }
 
       fetchData()
-      
+
   }, [])
 
 
   return (
     <main className="App">
+
+        {( typeof data.result === 'undefined' ) ? (
+            <p>Loading...</p>
+        ) : (
+            data.result.map((number, i) => (
+                <p key={i}>
+                  {number}
+                </p>
+            ))
+        )}
       
     </main>
   );
